@@ -1,12 +1,50 @@
 # React + Vite
+# 📈 Crypto Tracker Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern cryptocurrency tracking dashboard built using **React**, **Redux Toolkit**, **Chart.js**, and **Tailwind CSS**. This dashboard provides live insights such as market cap, 24h volume, price changes, and a 7-day sparkline chart for top cryptocurrencies.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📊 Display of live cryptocurrency data with sorting and percentage changes.
+- 🖼️ Mini line chart for each crypto's 7-day performance using `react-chartjs-2`.
+- 🔁 Live simulation of asset updates via Redux slice.
+- 📦 Structured with Redux Toolkit for scalable state management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧱 Tech Stack
+
+- React.js
+- Redux Toolkit
+- Chart.js
+- JavaScript (ES6+)
+
+---
+
+
+
+## ⚙️ Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/crypto-dashboard.git
+
+# 2. Navigate into the project directory
+cd crypto-dashboard
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm start
+```
+
+
+## Link
+ https://xiv-tech-three.vercel.app/
+
+
+
+
