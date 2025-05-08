@@ -1,0 +1,92 @@
+/* Container */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: #333;
+  }
+  
+  /* Table */
+  .crypto-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    min-width: 900px;
+    color: #333;
+  }
+  
+  /* Header */
+  .table-header {
+    background-color: #f9f9f9;
+    color: #222;
+    font-weight: 600;
+  }
+  
+  .table-header th {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    border-bottom: 2px solid #eee;
+    white-space: nowrap;
+  }
+  
+  /* Table rows */
+  .table-row td {
+    padding: 14px 16px;
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 0.88rem;
+    white-space: nowrap;
+    color: #333;
+  }
+  
+  /* Hover effect */
+  .table-row:hover {
+    background-color: #f6f6f6;
+    transition: background-color 0.3s;
+  }
+  
+  /* Coin logo */
+  .coin-logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: contain;
+  }
+  
+  .positive {
+    color: #00c853 !important;
+    font-weight: 600;
+  }
+  
+  .negative {
+    color: #d50000 !important;
+    font-weight: 600;
+  }
+  
+  /* Chart image */
+  .chart {
+    width: 60px;
+    height: 30px;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .crypto-table {
+      font-size: 0.75rem;
+    }
+  
+    .table-header th,
+    .table-row td {
+      padding: 10px 8px;
+    }
+  
+    .chart {
+      width: 40px;
+      height: 20px;
+    }
+  }
+  
